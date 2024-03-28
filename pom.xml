@@ -15,8 +15,6 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -51,6 +49,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.8.1</version> <!-- Ensure compatibility with Java 17 -->
+                                <configuration>
+                                     <source>11</source>
+                                     <target>11</target>
+                                </configuration>
 			</plugin>
 		</plugins>
 		<finalName>spring-boot-docker</finalName>
