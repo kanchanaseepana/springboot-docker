@@ -49,7 +49,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>3.8.1</version> <!-- Ensure compatibility with Java 17 -->
+				<version>3.6.3</version> <!-- Ensure compatibility with Java 17 -->
                                 <configuration>
                                      <source>11</source>
                                      <target>11</target>
